@@ -1,21 +1,27 @@
-# Drills for c{motion}
+# Daily Exercises for c{motion}
 
-## Setup (4 min)
-1. Paste a block with mixed identifiers, quoted strings, and parentheses/braces.
-2. Add at least 15 lines so you can repeat the same structure multiple times.
-3. Place the cursor at 5 different starting points before beginning.
+## Practice Buffer
+```text
+EX-01 status = "pending"
+EX-02 timeout_ms = 1200
+EX-03 path = "/tmp/cache"
+EX-04 user(name, email, role)
+EX-05 if (ready) { run_job(); }
+EX-06 title: draft
+EX-07 priority: low
+EX-08 env=dev region=us
+EX-09 retry_count=1
+EX-10 message="hello world"
+```
 
-## Accuracy Drill (10 min)
-1. Apply 'c{motion}' to 25 targets where the changed region is different each time.
-2. After each change, verify exactly what text was replaced (no extra deletions).
-3. Use `.` to repeat when possible and note where repeat is not appropriate.
-
-## Boundary Drill (10 min)
-1. Intentionally run 'c{motion}' at start, middle, and end of line contexts.
-2. Test counts when supported (for example `2c{motion}`) and compare boundaries.
-3. Run one pass where you cannot use backspace in Insert mode.
-
-## Mastery Drill (6 min)
-1. Refactor a small snippet using only 'c{motion}' plus motions and `.`.
-2. Goal: complete in 3 passes with decreasing keystrokes.
-3. Final pass must have zero undo operations.
+## Exercise List
+1. `/EX-01` use `c{motion}` to change `pending` to `done`.
+2. `/EX-02` change `1200` to `3000` with one `c{motion}` action.
+3. `/EX-03` change path value to `/var/tmp/build`.
+4. `/EX-04` change only `email` to `phone`.
+5. `/EX-05` change `run_job()` to `run_batch()`.
+6. `/EX-06` change `draft` to `published`.
+7. `/EX-07` change `low` to `high`.
+8. `/EX-08` change `dev` to `prod` and `us` to `eu`.
+9. `/EX-09` change retry value to `5`.
+10. `/EX-10` change string content to `deployment complete`.

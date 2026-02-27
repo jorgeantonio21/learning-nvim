@@ -1,21 +1,16 @@
-# Drills for :q
+# Daily Exercises for :q
 
-## Setup (3 min)
-1. Open two files, modify both, and leave one unmodified buffer.
-2. Note which buffers have unsaved changes.
-3. Prepare to repeat session-exit scenarios safely.
+## Scenario Setup
+Open 3 files. Modify two files, leave one clean.
 
-## Scenario Drill (10 min)
-1. Use ':q' in 12 scenarios mixing saved and unsaved buffers.
-2. Predict result before pressing Enter each time.
-3. Verify whether Vim exits, blocks, or discards changes.
-
-## Safety Drill (8 min)
-1. Intentionally trigger a blocked exit once.
-2. Recover correctly using write/save or force-quit flow.
-3. Repeat until behavior is predictable without hesitation.
-
-## Mastery Drill (6 min)
-1. Run a full session lifecycle: edit, save selectively, and exit with ':q'.
-2. Zero accidental data loss allowed.
-3. Record which scenario still feels risky and repeat it twice.
+## Exercise List
+1. Attempt exit flow with `:q` and observe result.
+2. Save only first modified file.
+3. Attempt exit again; confirm behavior with one unsaved buffer.
+4. Force or safe-quit according to `:q` semantics.
+5. Reopen and repeat with both files modified.
+6. Try quitting from split-window layout.
+7. Try quitting from tab layout.
+8. Validate no accidental data loss occurred.
+9. Repeat scenario where quit should be blocked, then resolve correctly.
+10. Finish with all intended changes saved and clean exit.

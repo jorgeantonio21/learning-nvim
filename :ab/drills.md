@@ -1,21 +1,16 @@
-# Drills for :ab
+# Daily Exercises for :ab
 
-## Setup (3 min)
-1. Pick 5 Vim topics you do not fully remember.
-2. Keep a note file open for short findings.
-3. Start from a clean session state.
+## Lookup Targets
+Use `:ab` to locate answers quickly.
 
-## Lookup Drill (10 min)
-1. Use ':ab' to answer each topic question with exact help locations.
-2. For each answer, record one command example from docs.
-3. Verify one cross-reference per topic (`:help` link jump).
-
-## Application Drill (10 min)
-1. Immediately apply each documented command in a scratch buffer.
-2. Confirm behavior matches the help text.
-3. If behavior differs, refine query and re-check docs.
-
-## Mastery Drill (6 min)
-1. Solve one unfamiliar editing problem using docs only.
-2. Constraint: no external browser search.
-3. End with a 5-line summary of what ':ab' helped you discover.
+## Exercise List
+1. Find exact help for `:help motions` and note 3 commands.
+2. Find help for one text object and apply it once in a scratch buffer.
+3. Find help for register behavior and capture one rule.
+4. Find help for search pattern atoms and run one sample search.
+5. Find help for marks and jump to a mark in practice.
+6. Find help for substitute flags and use one flag.
+7. Find help for window commands and execute one split action.
+8. Find help for macro recording and replay once.
+9. Find help for undo tree time travel and perform one jump.
+10. Solve one unknown command question using docs only, no browser.

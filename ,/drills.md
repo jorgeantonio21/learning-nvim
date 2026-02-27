@@ -1,21 +1,27 @@
-# Drills for ,
+# Daily Exercises for ,
 
-## Setup (3 min)
-1. Create 15 lines with dense punctuation (`(),.;:=`) and repeated letters.
-2. Keep each line 60-80 chars to force intra-line navigation.
-3. Start each repetition from line start.
+## Practice Buffer
+```text
+EX-01 a,b,c,d,e,f,g
+EX-02 key:value;next:value
+EX-03 (one)(two)(three)
+EX-04 id=abc-123-xyz
+EX-05 x_y_z_q_r
+EX-06 a1b2c3d4e5
+EX-07 [red][green][blue]
+EX-08 foo.bar.baz
+EX-09 <h1>Title</h1>
+EX-10 end-marker
+```
 
-## Targeting Drill (10 min)
-1. Use ',' to reach 40 specific characters announced before each run.
-2. Mix near and far targets; include misses and recover quickly.
-3. Pair with operators (`d`, `c`, `y`) for at least 10 combined actions.
-
-## Rhythm Drill (8 min)
-1. Chain ',' with `;` and `,` navigation for repeated target jumps.
-2. Avoid `/` and word motions during this drill.
-3. Measure how many accurate jumps you complete in 2 minutes.
-
-## Mastery Drill (7 min)
-1. Edit a symbol-heavy line set using only char-find navigation.
-2. Complete 3 rounds and reduce mis-targets each round.
-3. Final round target: <=2 corrections via undo.
+## Exercise List
+1. `/EX-01` use `,` to land on `d` directly.
+2. `/EX-02` land on the second `:` then delete to next `;`.
+3. `/EX-03` jump to `(` before `three` and change inner word.
+4. `/EX-04` jump to second `-` and replace suffix.
+5. `/EX-05` hop separators and uppercase `z` token.
+6. `/EX-06` land on `4` and change to `9`.
+7. `/EX-07` jump to `[` before `blue` and delete bracket pair content.
+8. `/EX-08` navigate by `.` and change `bar` to `core`.
+9. `/EX-09` jump to `>` before `Title` and replace text.
+10. `/EX-10` do one precise jump and return without search commands.

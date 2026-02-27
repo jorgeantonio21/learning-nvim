@@ -1,21 +1,27 @@
-# Drills for r
+# Daily Exercises for r
 
-## Setup (4 min)
-1. Create two paragraphs, one list, and one block-style snippet.
-2. Ensure each section has at least 5 lines.
-3. Identify three regions you will transform repeatedly.
+## Practice Buffer
+```text
+EX-01 alpha beta gamma delta
+EX-02 red green blue yellow
+EX-03 one two three four
+EX-04 block-A line-1
+EX-05 block-A line-2
+EX-06 block-A line-3
+EX-07 notes: item a, item b
+EX-08 table: a|b|c
+EX-09 mixed CASE words
+EX-10 final segment
+```
 
-## Selection/Transform Drill (10 min)
-1. Use 'r' 25 times with clear start/end intent each run.
-2. After each action, verify only intended text changed.
-3. Use `u` immediately when selection boundaries are wrong.
-
-## Repeatability Drill (8 min)
-1. Reapply the same style change across 10 regions.
-2. Use `.`/`gv` where relevant to keep edits consistent.
-3. Maintain zero arrow-key usage.
-
-## Mastery Drill (8 min)
-1. Perform a full formatting pass on the file with 'r' as the anchor command.
-2. Keep total undo actions under 3.
-3. Final check: compare before/after for uniformity.
+## Exercise List
+1. `/EX-01` select intended span with `r` context and uppercase it.
+2. `/EX-02` select `green blue` and replace with `cyan magenta`.
+3. `/EX-03` reorder two tokens via selection + paste flow.
+4. `/EX-04` to `/EX-06` apply one consistent transform across all lines.
+5. `/EX-07` wrap `item a, item b` in brackets.
+6. `/EX-08` reformat separators to `a | b | c`.
+7. `/EX-09` normalize to lowercase then capitalize first token.
+8. Re-select previous area (`gv` if relevant) and apply second transform.
+9. Use `J`/`gJ` context once to merge lines intentionally.
+10. On `EX-10`, perform one replace action and leave clean final state.

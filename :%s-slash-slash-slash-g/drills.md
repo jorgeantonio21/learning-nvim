@@ -1,21 +1,27 @@
-# Drills for :%s///g
+# Daily Exercises for :%s///g
 
-## Setup (4 min)
-1. Create a 60-line file with repeated tokens and close variants.
-2. Include punctuation-heavy and camelCase examples.
-3. Keep one untouched copy block at file bottom for comparison.
+## Practice Buffer
+```text
+EX-01 color=blue
+EX-02 color=blue
+EX-03 color=red
+EX-04 colour=blue
+EX-05 user_name=john
+EX-06 username=jane
+EX-07 path=/tmp/app
+EX-08 path=/tmp/log
+EX-09 TODO fix color
+EX-10 done
+```
 
-## Pattern Drill (10 min)
-1. Run ':%s///g' for 20 substitutions with increasing specificity.
-2. Start broad, then tighten patterns to avoid false matches.
-3. Verify changed line counts after each substitution.
-
-## Confirmation Drill (9 min)
-1. Practice both global replacement and selective confirmation flows.
-2. Reject at least 5 matches deliberately to train judgment.
-3. Undo entire substitution once, then redo with corrected pattern.
-
-## Mastery Drill (7 min)
-1. Refactor naming across the file with minimal collateral changes.
-2. Constraint: no manual per-line edits for target token changes.
-3. Final check: diff against untouched copy block.
+## Exercise List
+1. Replace `color=blue` with `color=green` where intended.
+2. Keep `colour=blue` unchanged.
+3. Replace key `user_name` with `account_name` only once.
+4. Update `/tmp` prefix to `/var/tmp` for both path lines.
+5. Replace `TODO` with `DONE` only on EX-09.
+6. Run one global substitution and verify total affected matches.
+7. Run one confirmed substitution (accept some, reject some).
+8. Undo the previous substitution and rerun with tighter pattern.
+9. Normalize remaining `blue` to `green` without touching words like `blueprint`.
+10. End with all desired replacements and zero collateral edits.

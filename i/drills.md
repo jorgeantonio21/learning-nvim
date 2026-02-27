@@ -1,21 +1,29 @@
-# Drills for i
+# Daily Exercises for i
 
-## Setup (3 min)
-1. Create a scratch buffer with 12 short lines of plain text.
-2. Keep line 1 as a title, lines 2-11 as content, line 12 empty.
-3. Use only Normal mode motions to position before each repetition.
+## Practice Buffer
+Copy this into a scratch file first.
 
-## Precision Drill (8 min)
-1. Run 'i' 30 times on different cursor positions.
-2. After each insertion, hit `<Esc>` once and confirm you are back in Normal mode.
-3. Undo with `u`, repeat at a new location, and keep rhythm steady.
+```text
+EX-01 one two three
+EX-02 alpha beta gamma
+EX-03 red green blue
+EX-04 dog cat fox
+EX-05 rust go zig
+EX-06 north south east west
+EX-07 apple banana cherry
+EX-08 one-two-three
+EX-09 quick brown fox jumps
+EX-10 final line
+```
 
-## Context Drill (10 min)
-1. Edit a paragraph so every sentence gains one extra qualifier using 'i'.
-2. Use counts where valid (for example `3i`) and compare results.
-3. Recover from two intentional mistakes using `u` and `Ctrl-r`.
-
-## Mastery Drill (7 min)
-1. Do 3 rounds editing the same text.
-2. Round target: finish with zero mode mistakes and zero cursor-key usage.
-3. Record total time and error count; beat your first round by at least 20%.
+## Exercise List
+1. `/EX-01` then use `i` to add `START:` at the intended insertion point.
+2. `/EX-02` add `[tag]` without moving with arrow keys.
+3. `/EX-03` add `,` between every word using repeated `i`.
+4. `/EX-04` insert `small` before each animal in one pass.
+5. `/EX-05` insert `(lang)` after each word.
+6. `/EX-06` insert separators so line becomes `north | south | east | west`.
+7. `/EX-07` prepend line number `07:`.
+8. `/EX-08` split into spaced tokens: `one - two - three`.
+9. `/EX-09` insert `very` before `quick` and `lazy` before `fox`.
+10. `/EX-10` insert `[done]` and exit Insert cleanly.

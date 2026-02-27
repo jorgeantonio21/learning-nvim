@@ -1,21 +1,27 @@
-# Drills for :reg
+# Daily Exercises for :reg
 
-## Setup (4 min)
-1. Build text with headings, lists, and repeated phrases.
-2. Add one paragraph you can copy from and one destination paragraph.
-3. Clear mental model: unnamed, numbered, and named registers.
+## Practice Buffer
+```text
+EX-01 source: alpha beta gamma
+EX-02 source: red green blue
+EX-03 source: one two three
+EX-04 target: __________
+EX-05 target: __________
+EX-06 target: __________
+EX-07 slot-A
+EX-08 slot-B
+EX-09 slot-C
+EX-10 register-check
+```
 
-## Register Awareness Drill (10 min)
-1. Use ':reg' 20 times with explicit intent about source/destination text.
-2. After every 4 operations, inspect registers with `:reg`.
-3. Confirm which register changed and why.
-
-## Composition Drill (10 min)
-1. Combine ':reg' with motions or marks to perform targeted transfers.
-2. Include at least 5 operations that use a non-default register.
-3. Reproduce one full sequence using `.` or macro replay if applicable.
-
-## Mastery Drill (6 min)
-1. Reformat a section by moving/copying text only with register-driven actions.
-2. Goal: no accidental overwrite of your planned register.
-3. Finish with a final `:reg` check and list one improvement.
+## Exercise List
+1. `/EX-01` use `:reg` to copy/paste/move text into `EX-04` as appropriate.
+2. `/EX-02` transfer text into `EX-05`.
+3. `/EX-03` transfer text into `EX-06`.
+4. Fill `EX-07`, `EX-08`, `EX-09` using three separate operations with `:reg`.
+5. Run `:reg` and confirm expected register changes.
+6. Redo step 1 but with an explicit named register.
+7. Redo step 2 using numbered register behavior if applicable.
+8. Perform one non-default register operation, then inspect with `:registers`.
+9. Repeat previous `:reg` effect with `.` when valid.
+10. End by reconstructing one full line from register contents only.

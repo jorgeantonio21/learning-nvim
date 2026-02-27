@@ -1,21 +1,16 @@
-# Drills for :args
+# Daily Exercises for :args
 
-## Setup (4 min)
-1. Open 3 files with distinct content sections.
-2. Create at least one split and one additional buffer/tab where relevant.
-3. Keep a small checklist of target layout/state changes.
+## Practice Buffers
+Create three files: `work/a.txt`, `work/b.txt`, `work/c.txt` with lines `EX-01`..`EX-10`.
 
-## Navigation Drill (10 min)
-1. Use ':args' 20 times to move between files, buffers, or windows.
-2. After each action, say what state changed (active buffer, window count, tab index).
-3. Avoid fuzzy switching; be explicit and deterministic.
-
-## Workflow Drill (10 min)
-1. Execute a mini task: open, edit, switch, and return without losing context.
-2. Include at least 5 transitions that rely on ':args'.
-3. If you get lost, recover using list/status commands only.
-
-## Mastery Drill (6 min)
-1. Time a complete multi-file edit run anchored on ':args'.
-2. Target: zero wrong-buffer edits and zero abandoned windows.
-3. Repeat once and improve both speed and state accuracy.
+## Exercise List
+1. Open all three files and use `:args` as your primary navigation/switch command.
+2. In `a.txt`, edit `EX-01` to add `[A]`.
+3. Switch context and in `b.txt`, edit `EX-02` to add `[B]`.
+4. Switch again and in `c.txt`, edit `EX-03` to add `[C]`.
+5. Return to `a.txt` and edit `EX-04`.
+6. Return to `b.txt` and edit `EX-05`.
+7. Return to `c.txt` and edit `EX-06`.
+8. List current buffers/windows/tabs and verify locations.
+9. Close or isolate views using `:args` flow where applicable.
+10. End with one active view and all edits preserved.
