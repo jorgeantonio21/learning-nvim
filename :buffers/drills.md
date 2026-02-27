@@ -1,16 +1,21 @@
 # Drills for :buffers
 
-## Warm-up (Beginner, 5 min)
-1. Run ':buffers' 20 times on simple text.
-2. Keep edits small and intentional.
-3. Exit/return to normal mode cleanly after each repetition.
+## Setup (4 min)
+1. Open 3 files with distinct content sections.
+2. Create at least one split and one additional buffer/tab where relevant.
+3. Keep a small checklist of target layout/state changes.
 
-## Constraint Drill (Intermediate, 10 min)
-1. Solve a short editing task where ':buffers' is mandatory.
-2. Avoid mouse and arrow keys.
-3. Prefer motions and text objects over repeated manual cursor movement.
+## Navigation Drill (10 min)
+1. Use ':buffers' 20 times to move between files, buffers, or windows.
+2. After each action, say what state changed (active buffer, window count, tab index).
+3. Avoid fuzzy switching; be explicit and deterministic.
 
-## Speed Drill (Advanced, 5 min)
-1. Repeat the same task 3 rounds.
-2. Track time and error count each round.
-3. Beat previous time without increasing errors.
+## Workflow Drill (10 min)
+1. Execute a mini task: open, edit, switch, and return without losing context.
+2. Include at least 5 transitions that rely on ':buffers'.
+3. If you get lost, recover using list/status commands only.
+
+## Mastery Drill (6 min)
+1. Time a complete multi-file edit run anchored on ':buffers'.
+2. Target: zero wrong-buffer edits and zero abandoned windows.
+3. Repeat once and improve both speed and state accuracy.

@@ -1,16 +1,21 @@
 # Drills for :help
 
-## Warm-up (Beginner, 5 min)
-1. Run ':help' 20 times on simple text.
-2. Keep edits small and intentional.
-3. Exit/return to normal mode cleanly after each repetition.
+## Setup (3 min)
+1. Pick 5 Vim topics you do not fully remember.
+2. Keep a note file open for short findings.
+3. Start from a clean session state.
 
-## Constraint Drill (Intermediate, 10 min)
-1. Solve a short editing task where ':help' is mandatory.
-2. Avoid mouse and arrow keys.
-3. Prefer motions and text objects over repeated manual cursor movement.
+## Lookup Drill (10 min)
+1. Use ':help' to answer each topic question with exact help locations.
+2. For each answer, record one command example from docs.
+3. Verify one cross-reference per topic (`:help` link jump).
 
-## Speed Drill (Advanced, 5 min)
-1. Repeat the same task 3 rounds.
-2. Track time and error count each round.
-3. Beat previous time without increasing errors.
+## Application Drill (10 min)
+1. Immediately apply each documented command in a scratch buffer.
+2. Confirm behavior matches the help text.
+3. If behavior differs, refine query and re-check docs.
+
+## Mastery Drill (6 min)
+1. Solve one unfamiliar editing problem using docs only.
+2. Constraint: no external browser search.
+3. End with a 5-line summary of what ':help' helped you discover.

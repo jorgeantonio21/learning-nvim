@@ -1,16 +1,21 @@
 # Drills for "ay
 
-## Warm-up (Beginner, 5 min)
-1. Run '"ay' 20 times on simple text.
-2. Keep edits small and intentional.
-3. Exit/return to normal mode cleanly after each repetition.
+## Setup (4 min)
+1. Build text with headings, lists, and repeated phrases.
+2. Add one paragraph you can copy from and one destination paragraph.
+3. Clear mental model: unnamed, numbered, and named registers.
 
-## Constraint Drill (Intermediate, 10 min)
-1. Solve a short editing task where '"ay' is mandatory.
-2. Avoid mouse and arrow keys.
-3. Prefer motions and text objects over repeated manual cursor movement.
+## Register Awareness Drill (10 min)
+1. Use '"ay' 20 times with explicit intent about source/destination text.
+2. After every 4 operations, inspect registers with `:reg`.
+3. Confirm which register changed and why.
 
-## Speed Drill (Advanced, 5 min)
-1. Repeat the same task 3 rounds.
-2. Track time and error count each round.
-3. Beat previous time without increasing errors.
+## Composition Drill (10 min)
+1. Combine '"ay' with motions or marks to perform targeted transfers.
+2. Include at least 5 operations that use a non-default register.
+3. Reproduce one full sequence using `.` or macro replay if applicable.
+
+## Mastery Drill (6 min)
+1. Reformat a section by moving/copying text only with register-driven actions.
+2. Goal: no accidental overwrite of your planned register.
+3. Finish with a final `:reg` check and list one improvement.

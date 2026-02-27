@@ -1,16 +1,21 @@
 # Drills for ^
 
-## Warm-up (Beginner, 5 min)
-1. Run '^' 20 times on simple text.
-2. Keep edits small and intentional.
-3. Exit/return to normal mode cleanly after each repetition.
+## Setup (3 min)
+1. Open a 120-line text file with mixed short and long lines.
+2. Add markers on lines 1, 30, 60, 90, and 120.
+3. Start from line 60 for every round.
 
-## Constraint Drill (Intermediate, 10 min)
-1. Solve a short editing task where '^' is mandatory.
-2. Avoid mouse and arrow keys.
-3. Prefer motions and text objects over repeated manual cursor movement.
+## Positioning Drill (10 min)
+1. Use '^' 40 times to land on predefined coordinates.
+2. Announce target line/column before moving.
+3. No search commands during this drill.
 
-## Speed Drill (Advanced, 5 min)
-1. Repeat the same task 3 rounds.
-2. Track time and error count each round.
-3. Beat previous time without increasing errors.
+## Composition Drill (8 min)
+1. Pair '^' with one operator each run (`d`, `c`, `y`).
+2. Execute 15 operator+motion actions with zero overreach.
+3. Repeat 5 of them with `.` and compare confidence.
+
+## Mastery Drill (7 min)
+1. Navigate and edit a full section using only motion-driven positioning.
+2. Keep cursor travel minimal and avoid corrective backtracking.
+3. Score: total keystrokes, overshoots, and undo count.

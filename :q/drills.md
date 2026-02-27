@@ -1,16 +1,21 @@
 # Drills for :q
 
-## Warm-up (Beginner, 5 min)
-1. Run ':q' 20 times on simple text.
-2. Keep edits small and intentional.
-3. Exit/return to normal mode cleanly after each repetition.
+## Setup (3 min)
+1. Open two files, modify both, and leave one unmodified buffer.
+2. Note which buffers have unsaved changes.
+3. Prepare to repeat session-exit scenarios safely.
 
-## Constraint Drill (Intermediate, 10 min)
-1. Solve a short editing task where ':q' is mandatory.
-2. Avoid mouse and arrow keys.
-3. Prefer motions and text objects over repeated manual cursor movement.
+## Scenario Drill (10 min)
+1. Use ':q' in 12 scenarios mixing saved and unsaved buffers.
+2. Predict result before pressing Enter each time.
+3. Verify whether Vim exits, blocks, or discards changes.
 
-## Speed Drill (Advanced, 5 min)
-1. Repeat the same task 3 rounds.
-2. Track time and error count each round.
-3. Beat previous time without increasing errors.
+## Safety Drill (8 min)
+1. Intentionally trigger a blocked exit once.
+2. Recover correctly using write/save or force-quit flow.
+3. Repeat until behavior is predictable without hesitation.
+
+## Mastery Drill (6 min)
+1. Run a full session lifecycle: edit, save selectively, and exit with ':q'.
+2. Zero accidental data loss allowed.
+3. Record which scenario still feels risky and repeat it twice.

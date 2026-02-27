@@ -1,16 +1,21 @@
 # Drills for N
 
-## Warm-up (Beginner, 5 min)
-1. Run 'N' 20 times on simple text.
-2. Keep edits small and intentional.
-3. Exit/return to normal mode cleanly after each repetition.
+## Setup (4 min)
+1. Prepare a 100-line file with repeated terms and similar variants.
+2. Include at least 10 near-matches that should not be selected.
+3. Turn on `:set hlsearch` for visibility.
 
-## Constraint Drill (Intermediate, 10 min)
-1. Solve a short editing task where 'N' is mandatory.
-2. Avoid mouse and arrow keys.
-3. Prefer motions and text objects over repeated manual cursor movement.
+## Match Quality Drill (10 min)
+1. Run 'N' for 25 searches with explicit expected match positions.
+2. Use whole-word, partial-word, and symbol-containing patterns.
+3. Confirm each jump before editing to prevent wrong-target edits.
 
-## Speed Drill (Advanced, 5 min)
-1. Repeat the same task 3 rounds.
-2. Track time and error count each round.
-3. Beat previous time without increasing errors.
+## Navigation Drill (8 min)
+1. Alternate 'N' with `n` and `N` to traverse result sets.
+2. Perform 10 edits where each edit is at the 3rd or later match.
+3. Cancel highlighting once, then re-enable and continue.
+
+## Mastery Drill (8 min)
+1. Complete a mini bug-hunt: find and fix 12 seeded tokens.
+2. Constraint: no manual scrolling for locating matches.
+3. Record time to first correct match and total completion time.

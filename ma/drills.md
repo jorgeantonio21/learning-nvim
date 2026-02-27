@@ -1,16 +1,21 @@
 # Drills for ma
 
-## Warm-up (Beginner, 5 min)
-1. Run 'ma' 20 times on simple text.
-2. Keep edits small and intentional.
-3. Exit/return to normal mode cleanly after each repetition.
+## Setup (3 min)
+1. Open a practice file and plan a 12-step edit sequence.
+2. Write the expected final text in a comment at the bottom.
+3. Keep jumps/marks/macros visible in your mental model.
 
-## Constraint Drill (Intermediate, 10 min)
-1. Solve a short editing task where 'ma' is mandatory.
-2. Avoid mouse and arrow keys.
-3. Prefer motions and text objects over repeated manual cursor movement.
+## Control Drill (10 min)
+1. Execute 'ma' repeatedly while performing the planned sequence.
+2. After every 4 steps, validate current state against expectation.
+3. Intentionally create one mistake, then recover cleanly.
 
-## Speed Drill (Advanced, 5 min)
-1. Repeat the same task 3 rounds.
-2. Track time and error count each round.
-3. Beat previous time without increasing errors.
+## Reliability Drill (9 min)
+1. Re-run the same workflow two more times.
+2. Track whether 'ma' reproduces the same outcome each run.
+3. If drift appears, isolate the exact step and fix it.
+
+## Mastery Drill (7 min)
+1. Complete one uninterrupted run with zero exploratory keystrokes.
+2. Match final text exactly to your expected output.
+3. Record completion time and consistency score (0-5).

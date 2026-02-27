@@ -1,16 +1,21 @@
 # Drills for A
 
-## Warm-up (Beginner, 5 min)
-1. Run 'A' 20 times on simple text.
-2. Keep edits small and intentional.
-3. Exit/return to normal mode cleanly after each repetition.
+## Setup (3 min)
+1. Create a scratch buffer with 12 short lines of plain text.
+2. Keep line 1 as a title, lines 2-11 as content, line 12 empty.
+3. Use only Normal mode motions to position before each repetition.
 
-## Constraint Drill (Intermediate, 10 min)
-1. Solve a short editing task where 'A' is mandatory.
-2. Avoid mouse and arrow keys.
-3. Prefer motions and text objects over repeated manual cursor movement.
+## Precision Drill (8 min)
+1. Run 'A' 30 times on different cursor positions.
+2. After each insertion, hit `<Esc>` once and confirm you are back in Normal mode.
+3. Undo with `u`, repeat at a new location, and keep rhythm steady.
 
-## Speed Drill (Advanced, 5 min)
-1. Repeat the same task 3 rounds.
-2. Track time and error count each round.
-3. Beat previous time without increasing errors.
+## Context Drill (10 min)
+1. Edit a paragraph so every sentence gains one extra qualifier using 'A'.
+2. Use counts where valid (for example `3A`) and compare results.
+3. Recover from two intentional mistakes using `u` and `Ctrl-r`.
+
+## Mastery Drill (7 min)
+1. Do 3 rounds editing the same text.
+2. Round target: finish with zero mode mistakes and zero cursor-key usage.
+3. Record total time and error count; beat your first round by at least 20%.
